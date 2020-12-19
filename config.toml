@@ -1,0 +1,6 @@
+baseURL = "https://realcoopstories.org/"
+languageCode = "en-us"
+title = "Real Coop Stories"
+
+[permalinks]
+  blog = "/:filename/"

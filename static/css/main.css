@@ -1,0 +1,11 @@
+:root {
+  --font-color: #313131;
+  --sans-serif-font: sans-serif;
+}
+
+html {
+  font-family: var(--sans-serif-font);
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--font-color);
+}
