@@ -4,3 +4,9 @@ title = "Real Coop Stories"
 
 [permalinks]
   blog = "/:filename/"
+
+[taxonomies]
+  tag = "tags"
+
+[params]
+  dateFormat = "Jan 2, 2006"
