@@ -9,3 +9,23 @@ html {
   font-weight: 400;
   color: var(--font-color);
 }
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+}
