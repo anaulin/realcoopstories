@@ -8,12 +8,11 @@
   {{ range where (where $.Site.Pages "Type" "episode") "Kind" "page" -}}
     <div class="episode-card">
       {{- with .Params.episode_image -}}
-      <img src="{{ . }}" width="200"/>
+      <img src="{{ . }}" />
       {{- end -}}
       <div class="episode-card-content">
         <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
         <p>{{ .Description }}</p>
-        <p>Published on {{ .Date.Format "Mon, Jan 02, 2006" | safeHTML }}</p>
         <a href="{{ .Permalink }}">Listen & read</a>
       </div>
     </div>

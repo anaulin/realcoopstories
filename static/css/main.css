@@ -10,6 +10,7 @@ html {
   font-size: 20px;
   font-weight: 400;
   color: var(--font-color);
+  background-color: var(--primary-color);
   margin: 0;
 }
 
@@ -32,6 +33,7 @@ img {
 
 main {
   padding: 1rem;
+  background-color: white;
 }
 
 nav {
@@ -73,8 +75,12 @@ nav a {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  align-items: flex-end;
+  align-items: flex-start;
   margin-bottom: 2rem;
+}
+
+.episode-card img {
+  max-width: 200px;
 }
 
 .episode-card-content {
