@@ -53,6 +53,10 @@ nav a {
   margin: 0;
 }
 
+.navbar li {
+  padding-left: 1rem;
+}
+
 .nav-logo {
   color: var(--secondary-color);
   font-weight: 800;
