@@ -31,5 +31,5 @@ $ ssh-copy-id -i ~/.ssh/id_rsa.pub anaulin@realcoopstories.org
 ```
 
 Set GitHub repo secrets:
-* `SSH_KEY`: contents of private key in `~/.ssh/id_rsa`
+* `SSH_KEY`: contents of private key in `~/.ssh/id_rsa`. Make sure to use PEM version of key, as detailed in https://github.com/marketplace/actions/install-ssh-key
 * `KNOWN_HOSTS`: output of `ssh-keyscan realcoopstories.org`
