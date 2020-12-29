@@ -9,10 +9,9 @@ draft = true
 This is a test post. It doesn't do anything yet.
 
 TODO:
-* add RSS feed
-* add podcast support to RSS feed, frontmatter
 * add front page content (recent posts?)
 * add "about" page
 * add footer with license / contact info
 * add overall styling
 * add logo image referenced from RSS feed, via entry in config.toml params
+* validate deployed RSS feed
