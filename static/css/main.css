@@ -2,7 +2,7 @@
   --font-color: #313131;
   --sans-serif-font: 'Quicksand', sans-serif;
   --primary-color: #339999;
-  --secondary-color: #FF9900;
+  --secondary-color: #993333;
 }
 
 html {
@@ -64,10 +64,11 @@ nav a {
 }
 
 .nav-logo {
-  color: var(--secondary-color);
-  font-size: 1.2rem;
+  color: white;
+  font-size: 1.5rem;
   font-weight: bold;
 }
+
 .episode-card {
   display: flex;
   flex-direction: row;
@@ -82,10 +83,8 @@ nav a {
 footer {
   background-color: var(--primary-color);
   color: white;
-  border-top-color: var(--secondary-color);
-  border-top-style: solid;
   padding: 1rem;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 footer a {
