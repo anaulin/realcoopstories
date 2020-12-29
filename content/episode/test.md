@@ -11,8 +11,9 @@ This is a test post. It doesn't do anything yet.
 
 TODO:
 * add "about" page
-* add footer with license / contact info
 * add overall styling
+  * choose font
+  * image border radius
 * add logo image referenced from RSS feed, via entry in config.toml params
   * iTunes artwork guidelines: https://itunespartner.apple.com/podcasts/articles/design-your-artwork-3059
 * validate deployed RSS feed
