@@ -10,7 +10,6 @@ podcast_file = "https://media.blubrry.com/arresteddevops/content.blubrry.com/arr
 This is a test post. It doesn't do anything yet.
 
 TODO:
-* add "about" page
 * add overall styling
   * choose font
   * image border radius
