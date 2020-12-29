@@ -1,6 +1,6 @@
 :root {
   --font-color: #313131;
-  --sans-serif-font: sans-serif;
+  --sans-serif-font: 'Quicksand', sans-serif;
   --primary-color: #339999;
   --secondary-color: #FF9900;
 }
@@ -26,6 +26,10 @@ a:hover {
   text-decoration: underline;
 }
 
+img {
+  border-radius: 8px;
+}
+
 main {
   padding: 1rem;
 }
@@ -35,9 +39,11 @@ nav {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
   background-color: var(--primary-color);
   padding: 1rem;
   color: white;
+  vertical-align: bottom;
 }
 
 nav a {
@@ -59,7 +65,8 @@ nav a {
 
 .nav-logo {
   color: var(--secondary-color);
-  font-weight: 800;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 .episode-card {
   display: flex;
