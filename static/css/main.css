@@ -7,7 +7,7 @@
 
 html {
   font-family: var(--sans-serif-font);
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 400;
   color: var(--font-color);
   margin: 0;
@@ -37,6 +37,7 @@ nav {
   justify-content: space-between;
   background-color: var(--primary-color);
   padding: 1rem;
+  color: white;
 }
 
 nav a {
@@ -65,4 +66,18 @@ nav a {
 
 .episode-card-content {
   margin-left: 2rem;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  border-top-color: var(--secondary-color);
+  border-top-style: solid;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
 }

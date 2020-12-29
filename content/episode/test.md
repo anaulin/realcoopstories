@@ -7,11 +7,9 @@ episode_image = "http://placekitten.com/500/500"
 podcast_file = "https://media.blubrry.com/arresteddevops/content.blubrry.com/arresteddevops/arrested-devops-podcast-episode164.mp3"
 +++
 
-
 This is a test post. It doesn't do anything yet.
 
 TODO:
-* add front page content (recent posts?)
 * add "about" page
 * add footer with license / contact info
 * add overall styling
