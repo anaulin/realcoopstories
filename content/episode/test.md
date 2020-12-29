@@ -15,3 +15,4 @@ TODO:
 * add "about" page
 * add footer with license / contact info
 * add overall styling
+* add logo image referenced from RSS feed, via entry in config.toml params

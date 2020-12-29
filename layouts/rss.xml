@@ -1,0 +1,52 @@
+{{/* copied, with light modifications, from https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/_default/rss.xml */}}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+>
+<channel>
+  <title>{{ .Site.Title }}</title>
+  <link>{{ .Permalink }}</link>
+  <description>{{ .Site.Params.Description }}</description>
+  <language>{{ .Site.LanguageCode }}</language>
+  <googleplay:owner>{{ .Site.Author.email }}</googleplay:owner>
+  <googleplay:author>{{ .Site.Author.name }}</googleplay:author>
+  <googleplay:image href="{{ .Site.Params.logo }}" />
+  <googleplay:category text="Business"/>
+  <googleplay:category text="Society &amp; Culture"/>
+  <itunes:category text="Business"/>
+  <itunes:category text="Society &amp; Culture"/>
+  <itunes:image href="{{ .Site.Params.logo }}" />
+  {{ if not .Date.IsZero }}
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+  {{ end }}
+  <googleplay:explicit>yes</googleplay:explicit>
+  <itunes:explicit>yes</itunes:explicit>
+  {{ with .OutputFormats.Get "RSS" }}
+  {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+  {{ end }}
+  {{ range where (where $.Site.Pages "Type" "episode") "Kind" "page" -}}
+  <item>
+    <title>{{ .Title }}</title>
+    <itunes:title>{{ .Title }}</itunes:title>
+    <author>{{ .Site.Author.name }} ({{ .Site.Author.email }})</author>
+    <itunes:author>{{ .Site.Author.name }} ({{ .Site.Author.email }})</itunes:author>
+    <link>{{ .Permalink }}</link>
+    <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+    {{- with .Params.episode_image -}}
+      <itunes:image href="{{ . | absURL }}"></itunes:image>
+      <googleplay:image href="{{ . | absURL }}"></googleplay:image>
+    {{- end -}}
+    {{ "<content:encoded><![CDATA[" | safeHTML }}{{ .Content | safeHTML }}{{"]]></content:encoded>" | safeHTML}}
+    <itunes:summary>{{ .Description | plainify }}</itunes:summary>
+    <description>{{ .Description  | plainify  }}</description>
+    <googleplay:description>{{ .Description  | plainify }}</googleplay:description>
+    <enclosure url="{{ .Params.podcast_file }}" {{with .Params.podcast_bytes}}length="{{ . }}"{{ end }} type="audio/mpeg" />
+    {{- with .Params.podcast_duration -}}<itunes:duration>{{ . }}</itunes:duration>{{- end -}}
+    <guid>{{ .Permalink }}</guid>
+  </item>
+  {{ end }}
+</channel>
+</rss>
