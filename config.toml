@@ -1,6 +1,6 @@
 baseURL = "https://realcoopstories.org/"
 languageCode = "en-us"
-title = "Real Coop Stories"
+title = "Real Co-op Stories"
 
 [author]
   name = "Ana Ulin"

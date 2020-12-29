@@ -6,6 +6,6 @@ tags = []
 draft = true
 podcast_file = ".mp3"
 podcast_duration = ""
-podcast_bytes = "
+podcast_bytes = ""
 episode_image = ""
 +++

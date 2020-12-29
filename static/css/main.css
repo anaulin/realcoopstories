@@ -1,6 +1,8 @@
 :root {
   --font-color: #313131;
   --sans-serif-font: sans-serif;
+  --primary-color: #339999;
+  --secondary-color: #FF9900;
 }
 
 html {
@@ -8,6 +10,24 @@ html {
   font-size: 22px;
   font-weight: 400;
   color: var(--font-color);
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 1rem;
 }
 
 nav {
@@ -15,6 +35,12 @@ nav {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  background-color: var(--primary-color);
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
 }
 
 .navbar {
@@ -26,6 +52,17 @@ nav {
   margin: 0;
 }
 
-.navbar a {
-  text-decoration: none;
+.nav-logo {
+  color: var(--secondary-color);
+  font-weight: 800;
+}
+.episode-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-bottom: 2rem;
+}
+
+.episode-card-content {
+  margin-left: 2rem;
 }
