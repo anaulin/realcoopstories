@@ -21,3 +21,15 @@ Feed validators:
   * Apple artwork requirements: https://itunespartner.apple.com/podcasts/articles/design-your-artwork-3059
 * Google: https://support.google.com/podcast-publishers/answer/9476656?visit_id=637447866313324769-2035917675&hl=en&rd=1
   * Google feed verification: https://support.google.com/podcast-publishers/answer/9747492?hl=en&ref_topic=9476973
+
+
+## Deploy workflow setup
+
+Copy public key to remote server:
+```bash
+$ ssh-copy-id -i ~/.ssh/id_rsa.pub anaulin@realcoopstories.org
+```
+
+Set GitHub repo secrets:
+* `SSH_KEY`: contents of private key in `~/.ssh/id_rsa`
+* `KNOWN_HOSTS`: output of `ssh-keyscan realcoopstories.org`
