@@ -16,7 +16,7 @@
   <googleplay:image href="{{ .Site.Params.logo }}" />
   <googleplay:category text="Business"/>
   <googleplay:category text="Society &amp; Culture"/>
-  <itunes:author>{{ .Site.Author.name }} ({{ .Site.Author.email }})</itunes:author>
+  <itunes:author>{{ .Site.Author.name }}</itunes:author>
   <itunes:owner>
     <itunes:name>{{ .Site.Author.name }}</itunes:name>
     <itunes:email>{{ .Site.Author.email }}</itunes:email>
@@ -43,7 +43,7 @@
     <title>{{ .Title }}</title>
     <itunes:title>{{ .Title }}</itunes:title>
     <author>{{ .Site.Author.email }} ({{ .Site.Author.name }})</author>
-    <itunes:author>{{ .Site.Author.name }} ({{ .Site.Author.email }})</itunes:author>
+    <itunes:author>{{ .Site.Author.name }}</itunes:author>
     <link>{{ .Permalink }}</link>
     <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
     {{- with .Params.episode_image -}}
