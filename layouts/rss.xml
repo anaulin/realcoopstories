@@ -31,17 +31,18 @@
   <item>
     <title>{{ .Title }}</title>
     <itunes:title>{{ .Title }}</itunes:title>
-    <author>{{ .Site.Author.name }} ({{ .Site.Author.email }})</author>
+    <author>{{ .Site.Author.email }}</author>
     <itunes:author>{{ .Site.Author.name }} ({{ .Site.Author.email }})</itunes:author>
+    <itunes:email>{{ .Site.Author.email }}</itundes:email>
     <link>{{ .Permalink }}</link>
     <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
     {{- with .Params.episode_image -}}
       <itunes:image href="{{ . | absURL }}"></itunes:image>
       <googleplay:image href="{{ . | absURL }}"></googleplay:image>
     {{- end -}}
+    <description>{{ .Description  | plainify  }}</description>
     {{ "<content:encoded><![CDATA[" | safeHTML }}{{ .Content | safeHTML }}{{"]]></content:encoded>" | safeHTML}}
     <itunes:summary>{{ .Description | plainify }}</itunes:summary>
-    <description>{{ .Description  | plainify  }}</description>
     <googleplay:description>{{ .Description  | plainify }}</googleplay:description>
     <enclosure url="{{ .Params.podcast_file }}" {{with .Params.podcast_bytes}}length="{{ . }}"{{ end }} type="audio/mpeg" />
     {{- with .Params.podcast_duration -}}<itunes:duration>{{ . }}</itunes:duration>{{- end -}}

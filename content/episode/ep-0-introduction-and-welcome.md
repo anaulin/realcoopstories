@@ -6,8 +6,9 @@ draft = false
 description = "Welcome to Real Co-op Stories."
 episode_image = "/img/real-coop-stories-ep0-introduction.jpg"
 podcast_file = "https://archive.org/download/real-coop-stories-ep-0-introduction-and-welcome/real-coop-stories-ep-0-introduction-and-welcome.mp3"
+podcast_bytes = "948812"
+podcast_duration = "00:00:59"
 +++
-
 
 ## Transcript
 
