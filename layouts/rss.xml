@@ -9,17 +9,20 @@
 <channel>
   <title>{{ .Site.Title }}</title>
   <link>{{ .Permalink }}</link>
-  <description>{{ .Site.Params.Description }}</description>
+  <description>{{ .Site.Params.subtitle }}</description>
   <language>{{ .Site.LanguageCode }}</language>
   <googleplay:owner>{{ .Site.Author.email }}</googleplay:owner>
   <googleplay:author>{{ .Site.Author.name }}</googleplay:author>
   <googleplay:image href="{{ .Site.Params.logo }}" />
   <googleplay:category text="Business"/>
   <googleplay:category text="Society &amp; Culture"/>
+  <itunes:author>{{ .Site.Author.name }} ({{ .Site.Author.email }})</itunes:author>
   <itunes:owner>
     <itunes:name>{{ .Site.Author.name }}</itunes:name>
     <itunes:email>{{ .Site.Author.email }}</itunes:email>
   </itunes:owner>
+  <itunes:subtitle>{{ .Site.Params.subtitle }}</itunes:subtitle>
+  <itunes:summary>{{ .Site.Params.summary }}</itunes:summary>
   <itunes:category text="Business">
     <itunes:category text="Entrepreneurship" />
   </itunes:category>
