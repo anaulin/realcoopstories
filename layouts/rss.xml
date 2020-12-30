@@ -8,7 +8,6 @@
 >
 <channel>
   <title>{{ .Site.Title }}</title>
-  <author>{{ .Site.Author.name }} ({{ .Site.Author.email }})</author>
   <link>{{ .Permalink }}</link>
   <description>{{ .Site.Params.Description }}</description>
   <language>{{ .Site.LanguageCode }}</language>
@@ -38,9 +37,8 @@
   <item>
     <title>{{ .Title }}</title>
     <itunes:title>{{ .Title }}</itunes:title>
-    <author>{{ .Site.Author.name }} ({{ .Site.Author.email }})</author>
+    <author>{{ .Site.Author.email }}</author>
     <itunes:author>{{ .Site.Author.name }} ({{ .Site.Author.email }})</itunes:author>
-    <itunes:email>{{ .Site.Author.email }}</itunes:email>
     <link>{{ .Permalink }}</link>
     <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
     {{- with .Params.episode_image -}}
