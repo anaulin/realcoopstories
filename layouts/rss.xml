@@ -17,7 +17,13 @@
   <googleplay:image href="{{ .Site.Params.logo }}" />
   <googleplay:category text="Business"/>
   <googleplay:category text="Society &amp; Culture"/>
-  <itunes:category text="Business"/>
+  <itunes:owner>
+    <itunes:name>{{ .Site.Author.name }}</itunes:name>
+    <itunes:email>{{ .Site.Author.email }}</itunes:email>
+  </itunes:owner>
+  <itunes:category text="Business">
+    <itunes:category text="Entrepreneurship" />
+  </itunes:category>
   <itunes:category text="Society &amp; Culture"/>
   <itunes:image href="{{ .Site.Params.logo }}" />
   {{ if not .Date.IsZero }}
