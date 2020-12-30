@@ -33,3 +33,23 @@ $ ssh-copy-id -i ~/.ssh/id_rsa.pub anaulin@realcoopstories.org
 Set GitHub repo secrets:
 * `SSH_KEY`: contents of private key in `~/.ssh/id_rsa`. Make sure to use PEM version of key, as detailed in https://github.com/marketplace/actions/install-ssh-key
 * `KNOWN_HOSTS`: output of `ssh-keyscan realcoopstories.org`
+
+## Automatically upload to Internet Archive
+
+Using Python internetarchive CLI:
+
+```
+$ python3 -m venv .venv
+$ source .direnv
+$ pip3 install internetarchive
+```
+
+Login with:
+```
+$ ia configure
+```
+
+Upload file:
+```
+$ ia upload
+```

@@ -11,4 +11,3 @@ This is a test post. It doesn't do anything yet.
 
 TODO:
 * add link to ep 0 from "about" page
-* validate deployed RSS feed

@@ -2,13 +2,23 @@
 
 <h1>{{ .Title }}</h1>
 
-{{ with .Params.podcast_file }}
-  <audio
-      controls preload="auto"
-      src="{{ . }}">
-      Your browser does not support the HTML5 <code>audio</code> element.
-  </audio>
-{{ end }}
+{{- if .Params.episode_image }}
+<div class="episode-card">
+  {{- with .Params.episode_image -}}
+    <img src="{{ . }}" alt="{{ $.Title }}"/>
+  {{- end -}}
+  <div class="episode-card-content">
+    {{ with .Params.podcast_file }}
+      <p>{{ $.Description }}</p>
+      <audio
+          controls preload="auto"
+          src="{{ . }}">
+          Your browser does not support the HTML5 <code>audio</code> element.
+      </audio>
+    {{ end }}
+  </div>
+</div>
+{{ end -}}
 
 {{ .Content }}
 
