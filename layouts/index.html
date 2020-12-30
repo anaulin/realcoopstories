@@ -6,9 +6,10 @@
 
   <h2>Episodes</h2>
   {{ range where (where $.Site.Pages "Type" "episode") "Kind" "page" -}}
+    {{ $permalink := .Permalink }}
     <div class="episode-card">
       {{- with .Params.episode_image -}}
-      <img src="{{ . }}" />
+      <a href="{{ $permalink }}"><img src="{{ . }}" /></a>
       {{- end -}}
       <div class="episode-card-content">
         <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>

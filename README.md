@@ -26,6 +26,13 @@ Create new episode:
 $ hugo new episode/your-episode-name.md
 ```
 
+Add at least the following fields to the episode frontmatter:
+* `description`: short description of the episode (~ a couple of sentences)
+* `episode_image`: cover image for episode, should have square aspect ratio
+* `podcast_file`: full URL to MP3 with episode audio
+* `podcast_bytes`: byte size of audio file
+* `podcast_duration`: duration of audio file, in HH:MM:SS format
+
 ## Configure build + deploy workflow
 
 Copy public key to remote server:
