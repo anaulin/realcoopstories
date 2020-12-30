@@ -31,7 +31,7 @@ if [[ $file == *.png ]]; then
 fi
 
 # If the file is too big, resize it.
-max_size=1200
+max_size=1400
 size=($(sips -g pixelWidth -g pixelHeight $file | grep -o '[0-9]*$'))
 
 if [[ ${size[0]} -gt $max_size || ${size[1]} -gt $max_size ]]; then
