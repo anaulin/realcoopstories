@@ -39,7 +39,7 @@
   <item>
     <title>{{ .Title }}</title>
     <itunes:title>{{ .Title }}</itunes:title>
-    <author>{{ .Site.Author.email }}</author>
+    <author>{{ .Site.Author.email }} ({{ .Site.Author.name }})</author>
     <itunes:author>{{ .Site.Author.name }} ({{ .Site.Author.email }})</itunes:author>
     <link>{{ .Permalink }}</link>
     <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
