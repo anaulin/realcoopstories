@@ -2,7 +2,7 @@
   --font-color: #313131;
   --sans-serif-font: 'Quicksand', sans-serif;
   --primary-color: #339999;
-  --secondary-color: #993333;
+  --secondary-color: #FF6600;
 }
 
 html {
@@ -25,6 +25,24 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.div {
+
+}
+
+.subscribe-tag {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.button {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
 }
 
 img {

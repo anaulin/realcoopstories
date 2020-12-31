@@ -6,6 +6,8 @@
   initial funding? How do you make decisions? How does it compare to
   non-cooperative work? What challenges have you faced?
 
+  <p>{{ partial "subscribe-buttons.html" . }}</p>
+
   <h2>Episodes</h2>
   {{ range where (where $.Site.Pages "Type" "episode") "Kind" "page" -}}
     {{ $permalink := .Permalink }}
