@@ -1,12 +1,16 @@
 {{ define "main" }}
 
   Welcome to Real Co-op Stories, a podcast where cooperative workers tell
-  their stories, along the way answering questions like: How is the
-  day-to-day in a co-op? How did you get started? Did you get initial
-  funding? How do you make decisions? How does it compare to non-cooperative
-  work? What challenges have you faced?
+  their stories, along the way answering questions like:
+  <p>
+  How is the day-to-day in a co-op? How did you get started? Did you get
+  initial funding? How do you make decisions? How does it compare to
+  non-cooperative work? What challenges have you faced?
+  </p>
 
-  <p>{{ partial "subscribe-buttons.html" . }}</p>
+  <p>
+    {{ partial "subscribe-buttons.html" . }}
+  </p>
 
   <h2>Episodes</h2>
   {{ range where (where $.Site.Pages "Type" "episode") "Kind" "page" -}}

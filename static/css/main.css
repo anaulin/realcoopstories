@@ -128,3 +128,31 @@ footer a {
   color: white;
   text-decoration: underline;
 }
+
+@media only screen and (max-width: 600px) {
+  .button-container {
+    flex-direction: column;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar li {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .episode-card {
+    flex-direction: column;
+  }
+
+  .episode-card-content {
+    margin-left: 0;
+  }
+}
