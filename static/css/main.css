@@ -1,7 +1,7 @@
 :root {
   --font-color: #313131;
   --greyed-text-color: #878787;
-  --sans-serif-font: 'Quicksand', sans-serif;
+  --sans-serif-font: 'Quicksand', Helvetica, sans-serif;
   --primary-color: #339999;
   --secondary-color: #FF6600;
 }
@@ -135,6 +135,27 @@ footer a {
   color: var(--greyed-text-color);
 }
 
+.audio-player {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 600px;
+}
+
+.audio-player-content {
+  padding-left: 1rem;
+}
+
+.audio-player img {
+  width: 200px;
+}
+
+.mejs__container {
+  background: var(--secondary-color);
+  font-family: var(--sans-serif-font);
+}
+
 @media only screen and (max-width: 600px) {
   .button-container {
     flex-direction: column;
@@ -160,5 +181,14 @@ footer a {
 
   .episode-card-content {
     margin-left: 0;
+  }
+
+  .audio-player {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .audio-player-content {
+    padding-left: 0;
   }
 }

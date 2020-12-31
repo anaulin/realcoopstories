@@ -7,11 +7,6 @@
   {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
   <title>{{ $title }}</title>
 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/main.css">
-  <link href="{{ .Site.BaseURL }}index.xml" rel="alternate" type="application/rss+xml" title="Real Coop Stories feed" />
-
   {{/* Favicon nonsense. */}}
   <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
@@ -19,4 +14,14 @@
   <link rel="manifest" href="/favicon/site.webmanifest">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
+
+  {{/* Mediaelement.js */}}
+  <script src="/jquery/jquery.min.js"></script>
+  <script src="/mediaelement/mediaelement-and-player.min.js"></script>
+  <link rel="stylesheet" href="/mediaelement/mediaelementplayer.min.css" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/main.css">
+  <link href="{{ .Site.BaseURL }}index.xml" rel="alternate" type="application/rss+xml" title="Real Coop Stories feed" />
 </head>

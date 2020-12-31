@@ -2,23 +2,20 @@
 
 <h1>{{ .Title }}</h1>
 
-{{- if .Params.episode_image }}
-<div class="episode-card">
-  {{- with .Params.episode_image -}}
-    <img src="{{ . }}" alt="{{ $.Title }}"/>
-  {{- end -}}
-  <div class="episode-card-content">
-    {{ with .Params.podcast_file }}
-      <p>{{ $.Description }}</p>
-      <audio
-          controls preload="auto"
-          src="{{ . }}">
-          Your browser does not support the HTML5 <code>audio</code> element.
-      </audio>
-    {{ end }}
+<div class="audio-player">
+  <img src="{{.Params.episode_image}}" width="200px" style="margin-bottom:0"/>
+  <div class="audio-player-content">
+    <p>{{ .Description }}</p>
+    <audio
+        controls preload="auto"
+        class="mejs__player"
+        style="margin-top:0;"
+        data-mejsoptions='{"alwaysShowControls": "true", "stretching": "auto", "width": "400px"}'
+        src="{{ .Params.podcast_file }}">
+        Your browser does not support the HTML5 <code>audio</code> element.
+    </audio>
   </div>
 </div>
-{{ end -}}
 
 {{ .Content }}
 
