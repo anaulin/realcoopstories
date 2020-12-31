@@ -5,6 +5,6 @@ tags = [ "meta" ]
 draft = false
 +++
 
-Add our [RSS feed]("/index.xml") to your favorite podcast app, or subscribe in one of the popular podcast players below:
+Add our [RSS feed]("/index.xml") to your favorite podcast app, or subscribe in one of the popular podcast players below.
 
 {{< partial "subscribe-buttons.html" >}}

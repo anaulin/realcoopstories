@@ -10,7 +10,6 @@ html {
   font-size: 20px;
   font-weight: 400;
   color: var(--font-color);
-  background-color: var(--primary-color);
   margin: 0;
 }
 
@@ -27,10 +26,6 @@ a:hover {
   text-decoration: underline;
 }
 
-.div {
-
-}
-
 .subscribe-tag {
   font-size: 1.2rem;
   font-weight: bold;
@@ -40,9 +35,20 @@ a:hover {
   background-color: var(--secondary-color);
   color: white;
   padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 img {
@@ -50,8 +56,13 @@ img {
 }
 
 main {
-  padding: 1rem;
   background-color: white;
+}
+
+.container {
+  margin-top: 1rem;
+  padding: 0 2rem;
+  max-width: 1000px;
 }
 
 nav {
@@ -110,6 +121,7 @@ footer {
   color: white;
   padding: 1rem;
   font-size: 0.8rem;
+  text-align: center;
 }
 
 footer a {
