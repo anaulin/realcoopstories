@@ -5,6 +5,7 @@ A podcast where cooperative practitioners tell their stories.
 - [Environment setup](#environment-setup)
 - [Adding a new episode and testing locally](#adding-a-new-episode-and-testing-locally)
 - [Configure build + deploy workflow](#configure-build--deploy-workflow)
+- [Utility scripts](#utility-scripts)
 - [Automatically upload to Internet Archive](#automatically-upload-to-internet-archive)
 - [Podcast feed requirements references](#podcast-feed-requirements-references)
   - [Feed validators](#feed-validators)
@@ -43,6 +44,18 @@ $ ssh-copy-id -i ~/.ssh/id_rsa.pub anaulin@realcoopstories.org
 Set GitHub repo secrets:
 * `SSH_KEY`: contents of private key in `~/.ssh/id_rsa`. Make sure to use PEM version of key, as detailed in https://github.com/marketplace/actions/install-ssh-key
 * `KNOWN_HOSTS`: output of `ssh-keyscan realcoopstories.org`
+
+## Utility scripts
+
+Resize and optimize image:
+```bash
+$ ./optimize-image.sh path/to/image
+```
+
+Enclose timestamps in timestamp shortcode:
+```bash
+$ ./timestamp-shortcode.sh path/to/file.md
+```
 
 ## Automatically upload to Internet Archive
 

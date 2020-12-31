@@ -1,5 +1,6 @@
 :root {
   --font-color: #313131;
+  --greyed-text-color: #878787;
   --sans-serif-font: 'Quicksand', sans-serif;
   --primary-color: #339999;
   --secondary-color: #FF6600;
@@ -127,6 +128,11 @@ footer {
 footer a {
   color: white;
   text-decoration: underline;
+}
+
+.timestamp {
+  font-size: 0.8rem;
+  color: var(--greyed-text-color);
 }
 
 @media only screen and (max-width: 600px) {
