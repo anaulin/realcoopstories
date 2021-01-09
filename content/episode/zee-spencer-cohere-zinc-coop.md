@@ -24,6 +24,7 @@ Impact and cooperative business creation and investment:
   * [The Next Egg](https://www.thenextegg.org/)
   * [Jenny Kassan](https://www.jennykassan.com/) and [Angels of Main Street](https://www.angelsofmainstreet.com/)
   * [Aniya Williams](https://twitter.com/operaqueenie) and [Zebras Unite](https://zebrasunite.coop/)
+  * [Arlan Hamilton](https://twitter.com/arlanwashere) and [Backstage Capital](https://www.backstagecrowd.com/)
   * [Kachuwa Impact Fund](https://www.kachuwaimpactfund.com/)
 
 Other impact organizations mentioned:
