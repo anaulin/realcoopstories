@@ -139,8 +139,8 @@ footer a {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: flex-end;
-  width: 600px;
+  align-items: flex-start;
+  max-width: 100%;
 }
 
 .audio-player-content {
@@ -154,6 +154,7 @@ footer a {
 .mejs__container {
   background: var(--secondary-color);
   font-family: var(--sans-serif-font);
+  width: 100% !important;
 }
 
 @media only screen and (max-width: 600px) {
