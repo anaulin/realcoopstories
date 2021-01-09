@@ -5,15 +5,17 @@
 <div class="audio-player">
   <img src="{{.Params.episode_image}}" width="200px" style="margin-bottom:0"/>
   <div class="audio-player-content">
-    <p>{{ .Description }}</p>
+    {{ .Description }}
     {{ if .Params.podcast_file }}
-    <audio
-        controls preload="auto"
-        class="mejs__player"
-        style="margin-top:0;"
-        src="{{ .Params.podcast_file }}">
-        Your browser does not support the HTML5 <code>audio</code> element.
-    </audio>
+    <p>
+      <audio
+          controls preload="auto"
+          class="mejs__player"
+          style="margin-top:0;"
+          src="{{ .Params.podcast_file }}">
+          Your browser does not support the HTML5 <code>audio</code> element.
+      </audio>
+    </p>
     {{ end }}
   </div>
 </div>
