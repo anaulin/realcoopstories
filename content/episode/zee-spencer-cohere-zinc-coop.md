@@ -4,9 +4,9 @@ date = 2021-01-07T13:00:31-08:00
 description = "Zee Spencer is a software engineer and member of Cohere, a cooperative software consultancy, and Zinc Collective, a software development collective. He talks about his journey to cooperativism, his thoughts on decision-making, fundraising (or not!), and the importance of meeting people where they're at."
 tags = []
 draft = true
-podcast_file = ".mp3"
-podcast_duration = ""
-podcast_bytes = ""
+podcast_file = "https://archive.org/download/real-coop-stories-zee-spencer-on-cohere-and-zinc-collective/Real%20Coop%20Stories%20-%20Zee%20Spencer%20on%20Cohere%20and%20Zinc%20Collective.mp3"
+podcast_duration = "1:01:37"
+podcast_bytes = "59278308"
 episode_image = "/img/zee-spencer-cohere-zinc-collective.jpg"
 +++
 
@@ -38,7 +38,12 @@ Other impact organizations mentioned:
 _Recorded on December 9th, 2020_
 
 {{< timestamp "[00:00:00]" >}}
-_Ana:_ Today I talk to Zee Spencer. Zee is a co-instigator of Cohere, a cooperatively run software leadership consultancy, and also Zinc co-op, a software development co-op.
+_Zee:_ Find a local worker co-op, that's doing a thing and be like, "Hey, I'm willing to be your IT person."  Be the person who fixes their goddamn printers because that's what they need.
+
+_[intro music]_
+
+{{< timestamp "[00:00:18]" >}}
+_Ana:_ Hello, and welcome to a Real Co-op Stories. I am your host, Ana Ulin, and today I'm talking to Zee Spencer, a co-owner of Cohere, a software leadership consultancy. Zee is also the originator of the Zinc Collective, a software development co-op that I myself contribute to.
 
 {{< timestamp "[00:00:24]" >}}
 Can you introduce yourself and tell us a little bit about your background?
