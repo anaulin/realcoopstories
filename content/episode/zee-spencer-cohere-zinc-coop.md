@@ -149,10 +149,10 @@ You can't sell your life like that. I mean, you can try, but at some point it ju
 _Ana:_ Yeah, the orange site is still a thing. I do not recommend it. So you went back to that startup and you met some of your current business partners. So what happened?
 
 {{< timestamp "[00:12:17]" >}}
-_Zee:_ Yeah, so I went back to my old S-corp and I was like, "All right, I'm going to dust off the old Rolodex", an, an old colleague, Attursh, was like, "Hey, would you like to do some Rails work for Code for America?" And I was like, "that seems like a great way to stick the landing  and do something meaningful."
+_Zee:_ Yeah, so I went back to my old S-corp and I was like, "All right, I'm going to dust off the old Rolodex", an, an old colleague, Adarsh, was like, "Hey, would you like to do some Rails work for Code for America?" And I was like, "that seems like a great way to stick the landing  and do something meaningful."
 
 {{< timestamp "[00:12:34]" >}}
-So I did a project called Michigan Benefits, with Attursh and, Joel and, oh God, there was more people, but I'm so bad at names. And they're the two that I kept in touch with. Oh, I'm a horrible person. If you are listening and you were on that project with me, I am so sorry. So I did that for a bit.
+So I did a project called Michigan Benefits, with Adarsh and, Joel and, oh God, there was more people, but I'm so bad at names. And they're the two that I kept in touch with. Oh, I'm a horrible person. If you are listening and you were on that project with me, I am so sorry. So I did that for a bit.
 
 {{< timestamp "[00:12:51]" >}}
 And then, you know, Jennifer, Betsy had both left the startup, shortly after I had, and they're like, "what do we want to do?" And I was like, "Well, I'm getting more clients together. Let's do some stuff." And at the same time, I had heard of  these things called the Rochdale Principles.
