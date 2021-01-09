@@ -2,23 +2,27 @@
 
 <h1>{{ .Title }}</h1>
 
+{{ if or .Params.podcast_file (or .Params.episode_image .Description) }}
 <div class="audio-player">
-  <img src="{{.Params.episode_image}}" width="200px" style="margin-bottom:0"/>
+  {{ if .Params.episode_image }}
+    <img src="{{.Params.episode_image}}" width="200px" style="margin-bottom:0"/>
+  {{ end }}
   <div class="audio-player-content">
     {{ .Description }}
     {{ if .Params.podcast_file }}
-    <p>
-      <audio
-          controls preload="auto"
-          class="mejs__player"
-          style="margin-top:0;"
-          src="{{ .Params.podcast_file }}">
-          Your browser does not support the HTML5 <code>audio</code> element.
-      </audio>
-    </p>
+      <p>
+        <audio
+            controls preload="auto"
+            class="mejs__player"
+            style="margin-top:0;"
+            src="{{ .Params.podcast_file }}">
+            Your browser does not support the HTML5 <code>audio</code> element.
+        </audio>
+      </p>
     {{ end }}
   </div>
 </div>
+{{ end }}
 
 {{ .Content }}
 

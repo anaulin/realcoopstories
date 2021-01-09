@@ -117,6 +117,10 @@ nav a {
   margin-left: 2rem;
 }
 
+.episode-card-content h3 {
+  margin-top: 0;
+}
+
 footer {
   background-color: var(--primary-color);
   color: white;
