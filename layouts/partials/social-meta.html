@@ -1,0 +1,28 @@
+<meta property="og:type" content="website" />
+{{/* TODO: Consider implementing the "player" card type. */}}
+<meta name="twitter:card" content="summary" key="twcard" />
+{{- if .Site.Params.TwitterUsername -}}
+  {{/* TODO: Consider adding a twitter:site tag if I get a Twitter handle for the site. */}}
+<meta name="twitter:creator" content="{{ .Site.Params.TwitterUsername }}" key="twhandle" />
+{{ end -}}
+{{ if .IsHome }}
+<meta name="description" content="{{ $.Site.Params.summary }}" />
+<meta property="og:url" content="{{ .Site.BaseURL }}" key="ogurl" />
+<meta property="og:title" content="{{ .Site.Title }}" key="ogtitle" />
+<meta name="og:description" content="{{ $.Site.Params.summary }}" key="ogdesc" />
+{{ else }}
+<meta name="description" content="{{ .Description }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:title" content="{{ .Title }} &middot; {{ .Site.Title }}" />
+{{ if .Description }}
+<meta name="og:description" content="{{ .Description }}" />
+{{ else }}
+<meta name="og:description" content="{{ $.Site.Params.summary }}" />
+{{ end }}
+<meta name="twitter:url" content="{{ .Permalink }}" />
+{{ end }}
+{{ if .Params.episode_image }}
+<meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.episode_image }}" key="ogimage" />
+{{ else }}
+<meta property="og:image" content="{{ .Site.Params.logo }}" key="ogimage" />
+{{ end }}
