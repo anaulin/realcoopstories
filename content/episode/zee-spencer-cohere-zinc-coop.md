@@ -14,6 +14,10 @@ episode_image = "/img/zee-spencer-cohere-zinc-collective.jpg"
 
 Zee can be found on Mastodon as [@zee@wandering.shop](https://wandering.shop/@zee) and Twitter as [@zspencer](https://twitter.com/zspencer). His personal website is [zeespencer.com](https://www.zeespencer.com/). The cooperatives Zee focuses on in this interview are [Cohere](https://www.wecohere.com/) and [Zinc Collective](https://www.zinc.coop/).
 
+Ideas, people and organizations mentioned in this episode:
+
+* The [Rochdale Principles](https://en.wikipedia.org/wiki/Rochdale_Principles) of cooperativism.
+
 Bay Area organizations doing work to support mutual aid and cooperative work:
   * [Sustainable Economies Law Center](https://www.theselc.org/)
   * [East Oakland Collective](https://www.eastoaklandcollective.com/)
