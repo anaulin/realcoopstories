@@ -53,7 +53,7 @@ Can you introduce yourself and tell us a little bit about your background?
 _Zee:_ My name is Zee. I was born and raised in central Michigan, right around the time when the Japanese auto companies were destroying  Michigan's entire economy and it wasn't really the Japanese auto companies fault. There was a lot of silly business decisions. Like we'll just make up losses on volume and then like a bunch of horrible things in Detroit with like racism and corruption and just all kinds of not great things that gutted the entire economy.
 
 {{< timestamp "[00:00:57]" >}}
-So I grew up in  one of the most depressed counties in my state , Shiawassee County, and  my parents were both in technology. My dad was a systems administrator and my mom was a project manager at Electronic Data Systems, until she quit to become a full-time mom and teacher.
+So I grew up in  one of the most depressed counties in my state, Shiawassee County, and  my parents were both in technology. My dad was a systems administrator and my mom was a project manager at Electronic Data Systems, until she quit to become a full-time mom and teacher.
 
 {{< timestamp "[00:01:22]" >}}
 I was homeschooled for most of my life. Did not go to university. I started working as a web designer / HTML jockey at 16, I want to say. The homeschool group that I was part of had an HTML class and the teacher was like, "Hey, do this for me for free." And I'm like, "All right, that sounds fun."
