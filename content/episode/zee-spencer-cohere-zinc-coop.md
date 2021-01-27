@@ -2,7 +2,7 @@
 title = "Zee Spencer on Cohere and Zinc Collective"
 date = 2021-01-12T10:00:31-08:00
 description = "Zee Spencer is a software engineer and member of Cohere, a cooperative software consultancy, and Zinc Collective, a software development collective. He talks about his journey to cooperativism, his thoughts on decision-making, fundraising (or not!), and the importance of meeting people where they're at."
-tags = []
+tags = ["software", "consulting"]
 draft = false
 podcast_file = "https://archive.org/download/real-coop-stories-zee-spencer-on-cohere-and-zinc-collective/Real%20Coop%20Stories%20-%20Zee%20Spencer%20on%20Cohere%20and%20Zinc%20Collective.mp3"
 podcast_duration = "1:01:37"
