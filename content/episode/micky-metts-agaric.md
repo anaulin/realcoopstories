@@ -1,16 +1,16 @@
 +++
 title = "Micky Metts on Agaric"
-date = 2021-02-18T20:05:28-08:00
+date = 2021-02-19T11:05:28-08:00
 description = "Micky Metts talks about cooperativism, free software, and life and work at Agaric, a Boston-based web development cooperative."
-tags = []
-draft = true
+tags = ["tech", "consulting"]
+draft = false
 podcast_file = "https://ia601509.us.archive.org/33/items/micky-metts-on-agaric/Micky%20Metts%20on%20Agaric.mp3"
 podcast_duration = "1:05:53"
 podcast_bytes = "63259053"
 episode_image = "/img/micky-metts-on-agaric.jpg"
 +++
 
-You can reach Micky on Mastodon at [@freescholar@social.coop](https://social.coop/@FreeScholar). Check out also other forms of contacting on at [her Agaric profile](https://agaric.coop/people/michele-metts).
+You can reach Micky on Mastodon at [@freescholar@social.coop](https://social.coop/@FreeScholar). Check out other forms of contacting her on [her Agaric profile](https://agaric.coop/people/michele-metts).
 
 People and organizations mentioned by Micky:
 
@@ -42,9 +42,9 @@ _[intro music]_
 
 {{< timestamp "[00:01:59]" >}} So before the world of co-ops, I would say my family was cooperative without really putting a label on it. My parents were very open and honest. There was no family secrets type of things, and we helped neighbors when they needed it. Neighbors helped us.  And in fact, at one point a family's house burned down in the next town and we took in the whole family into our house.  I had an older brother who was seven years older than me. And during his schooling and early years since I was born, my parents had been hosting foreign exchange students.
 
-{{< timestamp "[00:02:45]" >}} So we were very much exposed to other parts of the world, other types of food, other types of customs and cultures, and it was all embraced and very wonderful, wonderful time. I still have friends that I met, like when I was five or six from being [laughs] being introduced to the world like that.
+{{< timestamp "[00:02:45]" >}} So we were very much exposed to other parts of the world, other types of food, other types of customs and cultures, and it was all embraced and very wonderful, wonderful time. I still have friends that I met, like when I was five or six from being being introduced to the world like that.
 
-{{< timestamp "[00:03:11]" >}} I grew up in Connecticut, a very small, wealthy town in Connecticut, where we had the property taxes allowed for an excellent school system that was modeled on what a lot of charter schools say they're modeled on now.
+{{< timestamp "[00:03:11]" >}} I grew up in Connecticut, a very small, wealthy town in Connecticut, where we had, the property taxes allowed for an excellent school system that was modeled on what a lot of charter schools say they're modeled on now.
 
 {{< timestamp "[00:03:27]" >}} It unfortunately did not have diversity. We were the only Black family in the town.
 
@@ -80,9 +80,9 @@ _[intro music]_
 
 {{< timestamp "[00:07:28]" >}} And so that was in 1996. I started working at an internet company three days before images were being or on the internet for the general public, so that people could upload any image to the internet. And I had been telling my friends, yes, I'm going to have videos of my band on the internet.
 
-{{< timestamp "[00:07:51]" >}} And they were laughing at me in 1996. They're like, yeah, sure. And that I did manage to do that. I started a website called Graphic Audio. And I was one of the first beta testers for video on the internet, through a company in Israel , VDO, which was one of the first video companies online. And what I did was I created a little site and I had people send me their VHS tapes and I  had a condenser and all kinds of equipment to make them ready for the internet.
+{{< timestamp "[00:07:51]" >}} And they were laughing at me in 1996. They're like, yeah, sure. And that I did manage to do that. I started a website called Graphic Audio. And I was one of the first beta testers for video on the internet, through a company in Israel, VDO, which was one of the first video companies online. And what I did was I created a little site and I had people send me their VHS tapes and I  had a condenser and all kinds of equipment to make them ready for the internet.
 
-{{< timestamp "[00:08:29]" >}} So I had like four categories of video on my site. Short stories, movies , comedy, and punk rock music. And it was really wild, really fun. It was like the first YouTube. It also had a, I had been working with chat software that integrated with this so that you could use your webcam to be in a chat room.
+{{< timestamp "[00:08:29]" >}} So I had like four categories of video on my site. Short stories, movies, comedy, and punk rock music. And it was really wild, really fun. It was like the first YouTube. It also had a, I had been working with chat software that integrated with this so that you could use your webcam to be in a chat room.
 
 {{< timestamp "[00:08:56]" >}} So it was kind of looked like what Zoom looks like now, but much, much earlier, like all the videos would be at the top of the screen and the chat would be going on below the screen. So it was, it was not an audio chat. You couldn't hear people talk. It was a text chat, but it's a peer to peer type of thing where you could send people files and you could edit documents together online, etcetera.
 
@@ -98,9 +98,9 @@ _[intro music]_
 
 {{< timestamp "[00:10:44]" >}} Like all of a sudden people had nowhere to go. Like it was very sad. And that led me into finding Drupal, which is a content management system. It's  for developers to use to build websites. A lot of the large websites you go to are built with Drupal content management system, and it's a system of choice by most, a lot of governments and all the Ivy league colleges use it. Or most of them.
 
-{{< timestamp "[00:11:19]" >}} And it's just a wonderful thing because it's not just software, it's free software and it has a community around it. The tagline is you come for the software and stay for the community. I've never seen a community like that, of developers where they have all different areas where you can do Drupal for Good or Drupal for a specific things. Drupal for health communities ...  Anything you think of pretty much, there's a Drupal group for it. And Drupal is kind of easy for a newbie to get into, but then there is a steep, steep learning curve to get really advanced at it and become experts.
+{{< timestamp "[00:11:19]" >}} And it's just a wonderful thing because it's not just software, it's free software and it has a community around it. The tagline is you come for the software and stay for the community. I've never seen a community like that, of developers where they have all different areas where you can do Drupal for Good or Drupal for a specific things. Drupal for health communities. Anything you think of pretty much, there's a Drupal group for it. And Drupal is kind of easy for a newbie to get into, but then there is a steep, steep learning curve to get really advanced at it and become experts.
 
-{{< timestamp "[00:12:02]" >}} And that's where Agaric comes in. Agaric are early Drupal adopters. They've been there pretty much since the beginning. And we also contribute to Drupal core, which is the core software and Drupal has the community of people that contribute modules that extend the functionality of Drupal. So there's like a shopping cart and photo galleries type of things . Similar to  WordPress, but I have not really found a community around WordPress that equals or rivals the Drupal community.
+{{< timestamp "[00:12:02]" >}} And that's where Agaric comes in. Agaric are early Drupal adopters. They've been there pretty much since the beginning. And we also contribute to Drupal core, which is the core software and Drupal has the community of people that contribute modules that extend the functionality of Drupal. So there's like a shopping cart and photo galleries type of things. Similar to  WordPress, but I have not really found a community around WordPress that equals or rivals the Drupal community.
 
 {{< timestamp "[00:12:41]" >}} Back when we could meet in person, there are Drupal events all over the world. You can see them at drupical.org, like the Drupal calendar, and it's just all over the world. And once a year they would have a Drupal con on each continent. So there would be Drupalcon Europe, Drupalcon South  America, Drupalcon North America. And these are huge. They turned into huge events. They started out very community-centric and very welcoming of everyone. And it, it kind of turned into a more of a corporate thing. Where the latest or the last one Agaric went to and we do some Drupal training.
 
@@ -126,7 +126,7 @@ _[intro music]_
 
 {{< timestamp "[00:16:53]" >}} And Agaric  offers this to people by sponsoring a weekly Show and Tell, which is a meeting where people developers non-developers, we call them organic people because saying non is very negative. Like a non-technical person sounds like you're lacking something. So organic people and developers can meet in this chat room every week and discuss things that they've found, new tips and tricks, or what they do.
 
-{{< timestamp "[00:17:25]" >}} In cooperatives getting to know someone is the most important thing, getting to know people, taking interest. If you see a project happening you write to the people who are doing it and ask, how can I be involved or how can I lurk , where's your GitHub repo. And GitHub repo is like where all the code lives.
+{{< timestamp "[00:17:25]" >}} In cooperatives getting to know someone is the most important thing, getting to know people, taking interest. If you see a project happening you write to the people who are doing it and ask, how can I be involved or how can I lurk, where's your GitHub repo. And GitHub repo is like where all the code lives.
 
 {{< timestamp "[00:17:46]" >}} So there are many doors to getting in, but they're not very obvious to people. Which is sad and we're doing our best to remove the barriers to that by building a site called Co-op Guide, which is where we can all list what we do, you know, our skill sets and our experience and get to know each other better.
 
@@ -154,7 +154,7 @@ _[intro music]_
 
 {{< timestamp "[00:21:58]" >}} _Ana:_ Cool. And then you just started collaborating with with them on projects or was there like a little bit more formality there? How did that work?
 
-{{< timestamp "[00:22:05]" >}} _Micky:_ What happened was, I just started looking at the projects that they had on their website and then asking them questions about it, asking how I could help . I was welcomed into the cooperative soon after meeting them, because at that time they were growing and being a cooperative thinker myself, I thought I'm learning this.
+{{< timestamp "[00:22:05]" >}} _Micky:_ What happened was, I just started looking at the projects that they had on their website and then asking them questions about it, asking how I could help. I was welcomed into the cooperative soon after meeting them, because at that time they were growing and being a cooperative thinker myself, I thought I'm learning this.
 
 {{< timestamp "[00:22:27]" >}} This is kind of like school. People pay to go to school. I should be putting in what I think it's worth. So I didn't allow them to pay me for like six months. And even when they tried to pay me, I paid that money back and hired them to do something. So it's kind of like a give and take thing, like a family thing.
 
@@ -206,9 +206,9 @@ _[intro music]_
 
 {{< timestamp "[00:29:31]" >}} _Micky:_ Well, it's a lot of I guess less stress in the bad stress way. Right before Agaric, I worked with a corporation that had received a hundred million dollars in funding to build this app that is sort of like Google Hangouts. And it is used for like concerts and stuff where you could go backstage at a concert and talk with Ozzy Osborne through the app.
 
-{{< timestamp "[00:30:00]" >}} And people online could ask Ozzy questions and get responses.  So that was pretty crazy. And it ended up getting robbed and pillaged by the , I guess, the executives that had been brought on board. So it was totally trashed. When I joined it, there were nine people. It was a website that allowed you to configure your homepage when you open your computer and go online and choose all the news places you like and all the entertainment places, sites that you like. So it was like a little table of contents of your favorite stuff. And then , when the a hundred million dollars came in, that's when we started working on a thing called well, I won't even name it. Started working on the software to, for the app to go backstage and do all that stuff.
+{{< timestamp "[00:30:00]" >}} And people online could ask Ozzy questions and get responses.  So that was pretty crazy. And it ended up getting robbed and pillaged by the, I guess, the executives that had been brought on board. So it was totally trashed. When I joined it, there were nine people. It was a website that allowed you to configure your homepage when you open your computer and go online and choose all the news places you like and all the entertainment places, sites that you like. So it was like a little table of contents of your favorite stuff. And then, when the a hundred million dollars came in, that's when we started working on a thing called well, I won't even name it. Started working on the software to, for the app to go backstage and do all that stuff.
 
-{{< timestamp "[00:30:56]" >}} And, I guess , the big difference was there was such a concerted effort in that to hire on people. We started with nine, we ended up with 450 people within six months.
+{{< timestamp "[00:30:56]" >}} And, I guess, the big difference was there was such a concerted effort in that to hire on people. We started with nine, we ended up with 450 people within six months.
 
 {{< timestamp "[00:31:12]" >}} _Ana:_ Oh my God.
 
@@ -216,13 +216,13 @@ _[intro music]_
 
 {{< timestamp "[00:31:23]" >}} And it just got too big before it's, you know, too big for its britches.
 
-{{< timestamp "[00:31:32]" >}} And some unconscionable people got in there and , unfortunately, at the highest level, and were using this as a way to springboard into their next project. And no one really realized that until it was way too late. So that just blew up. And I should mention, we did get a second round of funding too, for another hundred million.
+{{< timestamp "[00:31:32]" >}} And some unconscionable people got in there and, unfortunately, at the highest level, and were using this as a way to springboard into their next project. And no one really realized that until it was way too late. So that just blew up. And I should mention, we did get a second round of funding too, for another hundred million.
 
 {{< timestamp "[00:32:01]" >}} And that's like, that could run a small country.
 
 {{< timestamp "[00:32:04]" >}} _Ana:_ Yeah.
 
-{{< timestamp "[00:32:05]" >}} _Micky:_ It's just very disheartening. I'm very sad. And just like in our, our governments today , the people who were least responsible got rewarded the most when they left, or when it blew up. And they're in high positions in big companies that you know about.
+{{< timestamp "[00:32:05]" >}} _Micky:_ It's just very disheartening. I'm very sad. And just like in our, our governments today, the people who were least responsible got rewarded the most when they left, or when it blew up. And they're in high positions in big companies that you know about.
 
 {{< timestamp "[00:32:25]" >}} _Ana:_ Yeah. That's disheartening as you very well say.
 
@@ -230,7 +230,7 @@ _[intro music]_
 
 {{< timestamp "[00:32:38]" >}} _Ana:_ Yeah, it's definitely a big question, right. One reason why I am interested in cooperatives is because I have the hope that if we learn to work in this more equitable, partnership-oriented way, as opposed to a hierarchical way with some people on top, some people on bottom, some people doing more work, some people benefiting more, and those two groups not being the same, that may be some of this problems might be improved.
 
-{{< timestamp "[00:33:05]" >}} But at the same time, I am also very aware there are problems in the co-op world , which leads me to my next question, which is:  have there been any hard decisions that you've all had to make at Agaric? And you talked about firing clients and even though that's not the favorite thing, that's a thing that can be done. But what about voting out worker owners or having to pivot or any, any other such hard decision. I'm curious what kinds of tensions or frictions have you seen and how are those usually handled at Agaric?
+{{< timestamp "[00:33:05]" >}} But at the same time, I am also very aware there are problems in the co-op world, which leads me to my next question, which is:  have there been any hard decisions that you've all had to make at Agaric? And you talked about firing clients and even though that's not the favorite thing, that's a thing that can be done. But what about voting out worker owners or having to pivot or any, any other such hard decision. I'm curious what kinds of tensions or frictions have you seen and how are those usually handled at Agaric?
 
 {{< timestamp "[00:33:41]" >}} _Micky:_ Well, I think we're small enough to have not really seen any of that. At one point we did finish up some work on clients early and ran out of work. We were like, Oh geez, we've never marketed ourselves or advertised or anything. Maybe we should start doing that. So we looked into it for a bit, but before we could really get on a train with that more clients came in.
 
@@ -264,7 +264,7 @@ _[intro music]_
 
 {{< timestamp "[00:39:14]" >}} _Micky:_ Yeah. There's seven, seven cooperative principles and the first one is self care and that's the one we must pay attention to most, especially in this era.
 
-{{< timestamp "[00:39:26]" >}}_Ana:_  I was just listening to a wonderful talk last week by Reverend angel Kyodo Williams, who's a Zen teacher out here, in the Bay Area. And she was off on fire ranting about how, you know, our liberation requires everybody else's wholeness. And so, you know, if you, if I am not working on my wholeness, I am interfering with your liberation is her point.
+{{< timestamp "[00:39:26]" >}} _Ana:_  I was just listening to a wonderful talk last week by Reverend angel Kyodo Williams, who's a Zen teacher out here, in the Bay Area. And she was off on fire ranting about how, you know, our liberation requires everybody else's wholeness. And so, you know, if you, if I am not working on my wholeness, I am interfering with your liberation is her point.
 
 {{< timestamp "[00:39:51]" >}} _Micky:_ That's so true. And yes, and if we're not using free software we're interfering with other people's liberation, which is a harder one for people to see. Because we have all been nurtured on convenience and that has made us intellectually lazy, you know, and I'm not saying that in a bad way, it's like a comforting nurturing thing where I can just go out and find a piece of software that does what I need.
 
@@ -274,13 +274,13 @@ _[intro music]_
 
 {{< timestamp "[00:40:57]" >}} _Micky:_ Exactly. Or people don't understand when they aggregate all of your content. That is very perplexing. The story I usually tell is like a young woman goes to on the way home from work buys a pregnancy test.
 
-{{< timestamp "[00:41:12]" >}} Well, the company that she works for may be buying data involved from like Facebook and Google and all of these places. And it'll notice on a purchase from her credit card that she bought this and she may be fired the next day for a different reason, you know . Well, they'll think, "Oh, she's going to have a baby. We better get rid of her now." But people do not think this far ahead. Which is sad. And it's sad that you have to think that way. You know, in a cooperative world, there'd be like, Oh a baby, what can we do? How can we help? We've got, have we got enough childcare co-ops? Are you getting time off?
+{{< timestamp "[00:41:12]" >}} Well, the company that she works for may be buying data involved from like Facebook and Google and all of these places. And it'll notice on a purchase from her credit card that she bought this and she may be fired the next day for a different reason, you know. Well, they'll think, "Oh, she's going to have a baby. We better get rid of her now." But people do not think this far ahead. Which is sad. And it's sad that you have to think that way. You know, in a cooperative world, there'd be like, Oh a baby, what can we do? How can we help? We've got, have we got enough childcare co-ops? Are you getting time off?
 
 {{< timestamp "[00:41:53]" >}} I've always said where else in your corporation, could you go at five o'clock until the boss, My aunt died in Missouri. I have to leave tomorrow morning to go there. And I don't have any money. I need an advance of two weeks of the salary to go there. They would look at you like you were insane. And a co-op would be like, great, take three weeks. And how much do you need? And you want the car and take the company car.
 
-{{< timestamp "[00:42:22]" >}} _Ana:_ I think that's very, lovely, and very , what's the right word for it, very heartening to hear that there is a different way to be with each other and work with each other, while making a living and meeting our material needs.
+{{< timestamp "[00:42:22]" >}} _Ana:_ I think that's very, lovely, and very, what's the right word for it, very heartening to hear that there is a different way to be with each other and work with each other, while making a living and meeting our material needs.
 
-{{< timestamp "[00:42:34]" >}} Not necessarily looking at everything from the point of view of competition, which brings me back to this really intriguing thing, or intriguing from a traditional corporate standpoint, I must say . Which is this idea of sharing leads with other co-ops.  The late 20th century neoliberal  ethos of competing for everything makes it unthinkable that a company would share leads with other companies that might be also seen as competitors. Right? Because if one believes, as many do believe, that there is a limited amount of work to go around that there's a limited amount of resources to go around, then why would I share my leads with you? Because  what, if you outbid me on that next project, instead of cooperating with me, then I'm left high and dry. So how do you, how do you manage this at a place like Agaric?  How do you manage those risks? And how do you think about that?
+{{< timestamp "[00:42:34]" >}} Not necessarily looking at everything from the point of view of competition, which brings me back to this really intriguing thing, or intriguing from a traditional corporate standpoint, I must say Which is this idea of sharing leads with other co-ops.  The late 20th century neoliberal  ethos of competing for everything makes it unthinkable that a company would share leads with other companies that might be also seen as competitors. Right? Because if one believes, as many do believe, that there is a limited amount of work to go around that there's a limited amount of resources to go around, then why would I share my leads with you? Because  what, if you outbid me on that next project, instead of cooperating with me, then I'm left high and dry. So how do you, how do you manage this at a place like Agaric?  How do you manage those risks? And how do you think about that?
 
 {{< timestamp "[00:43:37]" >}} _Micky:_ We don't. It manages itself, pretty much. The people that we offer access to this are in our network and that would not be something that they would think of doing, or if they did so, well, there's but there is not a finite amount of work. There's an infinite amount of work.
 
@@ -306,7 +306,7 @@ _[intro music]_
 
 {{< timestamp "[00:48:18]" >}} _Micky:_ Yeah. I did work for a few startups. And it just seemed ludicrous to me. It, it, it would be like having babies to get them adopted by some rich people or something.
 
-{{< timestamp "[00:48:32]" >}}_Ana:_  I love that image because it feels very apt and it's appropriately horrifying.
+{{< timestamp "[00:48:32]" >}} _Ana:_  I love that image because it feels very apt and it's appropriately horrifying.
 
 {{< timestamp "[00:48:38]" >}} _Micky:_ I have five babies and two of them will be adopted by some rich people who have a beach house I could live in, you know, but you know, that's, that's kind of crazy, but I don't know, people do that.
 
@@ -382,17 +382,17 @@ _[intro music]_
 
 {{< timestamp "[01:03:42]" >}} _Ana:_ Are there any good places online to find, you know, lists of coops or ways to get in touch with coops?
 
-{{< timestamp "[01:03:48]" >}} _Micky:_ I would go to the USFWC site. It's US worker .coop, dot c-o-o-p and it's the United States Federation of worker cooperatives.
+{{< timestamp "[01:03:48]" >}} _Micky:_ I would go to the USFWC site. It's US worker dot coop, dot c-o-o-p and it's the United States Federation of worker cooperatives.
 
 {{< timestamp "[01:04:00]" >}} And they can direct you to some cooperatives that are more vocal than others, or have more time to do outreach. Cause it does take time, you know.
 
-{{< timestamp "[01:04:11]" >}}_Ana:_  Thank you for that. Before we do finish our conversation, is there anything else you'd like to share that I haven't asked you about?
+{{< timestamp "[01:04:11]" >}} _Ana:_  Thank you for that. Before we do finish our conversation, is there anything else you'd like to share that I haven't asked you about?
 
 {{< timestamp "[01:04:21]" >}} _Micky:_ Oh, boy, let's see. Bungee jumping. No, I don't do that. I guess risk-taking. People see cooperatives as a risk-taking thing. I see it as a thing that envelops and takes your whole, your whole being to be in it. Because at Agaric, when we have our daily meetings, we always have a part of it that's about your personal life. How are things in your personal life? And that can, that leads to a lot of understanding, a lot of empathy. And I think that people are afraid to share parts of themselves because they have been hurt by competitors. The competition level and competition really doesn't or shouldn't exist in cooperatives.
 
 {{< timestamp "[01:05:16]" >}} So you can show your whole self and be your whole self. As part of a cooperative. And I think that's the, you know, balancing your life work thing. There was no life and work difference thing. It's all together. If you really are honest and look at it, your life is your work and your work is your life. So it's time to admit that, get over it and don't keep splitting yourself into multiple personalities.
 
-{{< timestamp "[01:05:45]" >}}_Ana:_  Thank you. That's very nice. Very insightful.
+{{< timestamp "[01:05:45]" >}} _Ana:_  Thank you. That's very nice. Very insightful.
 
 {{< timestamp "[01:05:49]" >}} _Micky:_ You're welcome. It's been a wonderful ride.
 
