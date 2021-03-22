@@ -53,6 +53,8 @@ Books and reading recommended:
 
 ## Transcript
 
+_Recorded in February 2021._
+
 {{< timestamp "[00:00:00]" >}} _Devney:_ We would not be here without each other. We make each other's livelihoods possible and each other's growth possible.
 
 _[intro music]_
