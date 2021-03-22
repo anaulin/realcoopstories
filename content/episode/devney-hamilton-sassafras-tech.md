@@ -12,7 +12,9 @@ episode_image = "/img/devney-hamilton-sassfras.jpg"
 
 ## Episode Notes
 
-Stay in touch with Sassafras:
+Sassafras encourages people of color and/or with disabilities and/or trans or gender-non-conforming, or otherwise targeted with oppression in tech to contact them at [info@sassafras.coop](mailto:info@sassafras.coop).
+
+Ways to stay in touch with Sassafras:
 * Main website: [sassafras.coop](https://www.sassafras.coop/)
 * Twitter: [@sassafrastech](https://twitter.com/sassafrastech)
 * Blog: [blog.sassafras.coop](https://blog.sassafras.coop/)
@@ -45,7 +47,7 @@ Organizations that provide resources for starting coops:
 * [Democracy at Work Institute](https://institute.coop/)
 
 Books and reading recommended:
-* [Prefigurative Design as a Method for Research Justice](https://dl.acm.org/doi/pdf/10.1145/3359302), research paper by Mariam Asad's
+* [Prefigurative Design as a Method for Research Justice](https://dl.acm.org/doi/pdf/10.1145/3359302), research paper by Mariam Asad
 * [Collective Courage: A History of African American Cooperative Economic Thought and Practice](https://www.psupress.org/books/titles/978-0-271-06216-7.html), book by Jessica Gordon Nembhard
 * [Emergent Strategy: Shaping Change, Changing Worlds](https://www.akpress.org/emergentstrategy.html), book by adrienne maree brown
 
