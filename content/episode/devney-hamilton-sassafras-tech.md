@@ -15,7 +15,7 @@ episode_image = "/img/devney-hamilton-sassfras.jpg"
 Sassafras encourages people of color and/or with disabilities and/or trans or gender-non-conforming, or otherwise targeted with oppression in tech to contact them at [info@sassafras.coop](mailto:info@sassafras.coop).
 
 Ways to stay in touch with Sassafras:
-* Main website: [sassafras.coop](https://www.sassafras.coop/)
+* Website: [sassafras.coop](https://www.sassafras.coop/)
 * Twitter: [@sassafrastech](https://twitter.com/sassafrastech)
 * Blog: [blog.sassafras.coop](https://blog.sassafras.coop/)
 
