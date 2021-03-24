@@ -15,16 +15,16 @@ episode_image = "/img/devney-hamilton-sassfras.jpg"
 Sassafras encourages people of color and/or with disabilities and/or trans or gender-non-conforming, or otherwise targeted with oppression in tech to contact them at [info@sassafras.coop](mailto:info@sassafras.coop).
 
 Ways to stay in touch with Sassafras:
-* Website: [sassafras.coop](https://www.sassafras.coop/)
-* Twitter: [@sassafrastech](https://twitter.com/sassafrastech)
 * Blog: [blog.sassafras.coop](https://blog.sassafras.coop/)
+* Twitter: [@sassafrastech](https://twitter.com/sassafrastech)
+* Website: [sassafras.coop](https://www.sassafras.coop/)
 
 Organizations mentioned:
-* [Atomic Object](https://atomicobject.com/), a Midwest software consultancy, employee-owned B corporation
+* [Design Action Collective](https://designaction.org/)
 * [Loomio](https://help.loomio.org/en/about/), a software product co-op.
 * [Allied Media Conference](https://amc.alliedmedia.org/)
 * [INCITE! Women of Color Against Violence](https://incite-national.org/)
-* [Design Action Collective](https://designaction.org/)
+* [Atomic Object](https://atomicobject.com/), a Midwest software consultancy, employee-owned B corporation
 
 Places to learn about co-op work opportunities:
 * [USFWC Tech Co-op Peer Network](https://info.usworker.coop/civicrm/event/info?reset=1&id=429)
@@ -48,7 +48,7 @@ Organizations that provide resources for starting coops:
 
 Books and reading recommended:
 * [Prefigurative Design as a Method for Research Justice](https://dl.acm.org/doi/pdf/10.1145/3359302), research paper by Mariam Asad
-* [Collective Courage: A History of African American Cooperative Economic Thought and Practice](https://www.psupress.org/books/titles/978-0-271-06216-7.html), book by Jessica Gordon Nembhard
+* [Collective Courage: A History of African American Cooperative Economic Thought and Practice](https://www.psupress.org/books/titles/978-0-271-06216-7.html), book by Dr. Jessica Gordon Nembhard, PhD
 * [Emergent Strategy: Shaping Change, Changing Worlds](https://www.akpress.org/emergentstrategy.html), book by adrienne maree brown
 
 ## Transcript
