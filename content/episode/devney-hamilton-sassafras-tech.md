@@ -59,7 +59,7 @@ _Recorded in February 2021._
 
 _[intro music]_
 
-{{< timestamp "[00:00:18]" >}} _Ana:_ Welcome to Real Co-op Stories. My name is _Ana:_ and today I'm talking to Devney Hamilton, a developer with Sassafras Tech Collective.
+{{< timestamp "[00:00:18]" >}} _Ana:_ Welcome to Real Co-op Stories. My name is Ana and today I'm talking to Devney Hamilton, a developer with Sassafras Tech Collective.
 
 {{< timestamp "[00:00:27]" >}} _Devney:_ I'm Devney Hamilton. I use they and she. I grew up in the Midwest and then was in the Bay Area for college at Stanford. And that's where I got pulled into tech. Facebook and Google were still new and cool. Facebook was in their old Page Mill office.
 
@@ -151,7 +151,7 @@ _[intro music]_
 
 {{< timestamp "[00:17:56]" >}} _Ana:_ You described Sassafras as tech co-op, but can you tell me a little bit more about what does the Sassafras do as a business?
 
-{{< timestamp "[00:18:02]" >}} _Devney:_ Oh, yeah. We do a lot of custom software development. And then with that, there's a lot of product work that we do. We're part of the Design Justice Network. And so there's a lot of like product and co-design work. We also have our project m_Ana:_gement or project planning pieces that we do. To support that we do, I guess what people call dev ops infrastructure.
+{{< timestamp "[00:18:02]" >}} _Devney:_ Oh, yeah. We do a lot of custom software development. And then with that, there's a lot of product work that we do. We're part of the Design Justice Network. And so there's a lot of like product and co-design work. We also have our project management or project planning pieces that we do. To support that we do, I guess what people call dev ops infrastructure.
 
 {{< timestamp "[00:18:32]" >}} We do some CMS work. We do some more custom work in Rails and JavaScript. It's interesting, cause we're always like excited about trying new tech and we find ways to do it and we also tend to be pretty conservative to protect our clients' budgets.
 
@@ -311,7 +311,7 @@ _[intro music]_
 
 {{< timestamp "[00:42:34]" >}} _Devney:_ Client work is pretty similar. It's just on projects that I'm more excited about. And also on a tighter budget.
 
-{{< timestamp "[00:42:43]" >}} The internal work, some of it's similar, like m_Ana:_ging capacity, lining up our client projects with our actual amount of time we have, the whole running of the organization. We have time set aside once a week, group time together doing organizational stuff. And then other times we'll break up into committees. We have committees: the HR committee and the outreach committee and that finance committee and the hiring committee. We have more committees than people. We have like two, or two and a half committees per person. They just helps us organize our work and be responsible for everything. For example, we run evaluations.  That's an internal process that needs to be running regularly. Our workload m_Ana:_gement needs to be running our finances.
+{{< timestamp "[00:42:43]" >}} The internal work, some of it's similar, like managing capacity, lining up our client projects with our actual amount of time we have, the whole running of the organization. We have time set aside once a week, group time together doing organizational stuff. And then other times we'll break up into committees. We have committees: the HR committee and the outreach committee and that finance committee and the hiring committee. We have more committees than people. We have like two, or two and a half committees per person. They just helps us organize our work and be responsible for everything. For example, we run evaluations.  That's an internal process that needs to be running regularly. Our workload management needs to be running our finances.
 
 {{< timestamp "[00:43:28]" >}} We also have a lot of professional support, which becomes possible, like later on in the life of the co-op.
 
