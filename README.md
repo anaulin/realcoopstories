@@ -2,9 +2,10 @@
 
 A podcast where cooperative practitioners tell their stories.
 
+> **Archived.** The show ran from 2020 to 2021 and is no longer updated. The realcoopstories.org domain is no longer maintained. Episodes and transcripts now live at https://anaulin.org/projects/realcoopstories/.
+
 - [Environment setup](#environment-setup)
 - [Adding a new episode and testing locally](#adding-a-new-episode-and-testing-locally)
-- [Configure build + deploy workflow](#configure-build--deploy-workflow)
 - [Utility scripts](#utility-scripts)
 - [Automatically upload to Internet Archive](#automatically-upload-to-internet-archive)
 - [Podcast feed requirements references](#podcast-feed-requirements-references)
@@ -33,17 +34,6 @@ Add at least the following fields to the episode frontmatter:
 * `podcast_file`: full URL to MP3 with episode audio
 * `podcast_bytes`: byte size of audio file
 * `podcast_duration`: duration of audio file, in HH:MM:SS format
-
-## Configure build + deploy workflow
-
-Copy public key to remote server:
-```bash
-$ ssh-copy-id -i ~/.ssh/id_rsa.pub anaulin@realcoopstories.org
-```
-
-Set GitHub repo secrets:
-* `SSH_KEY`: contents of private key in `~/.ssh/id_rsa`. Make sure to use PEM version of key, as detailed in https://github.com/marketplace/actions/install-ssh-key
-* `KNOWN_HOSTS`: output of `ssh-keyscan realcoopstories.org`
 
 ## Utility scripts
 
